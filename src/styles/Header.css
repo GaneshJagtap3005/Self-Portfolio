@@ -1,0 +1,53 @@
+/* Header.css */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 40px 500px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-links a:hover {
+  color: #ff6600;
+}
+
+/* Dropdown */
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  background-color: #444;
+  padding: 10px;
+  border-radius: 4px;
+  z-index: 100;
+}
+
+.nav-item:hover .dropdown {
+  display: block;
+}
+
+.dropdown a {
+  display: block;
+  color: white;
+  margin: 5px 0;
+}
+
+.dropdown a:hover {
+  color: #ff6600;
+}

@@ -1,0 +1,115 @@
+/* .footer {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px 0px 50px;
+  flex-wrap: wrap;
+  margin-top: 500px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  border-bottom: 1px solid #555;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.footer-section a:hover {
+  color: #ff6600;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-section p {
+  margin: 5px 0;
+} */
+
+.footer {
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 220px;
+    margin-bottom: 20px;
+}
+
+.footer-column h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer-column p, 
+.footer-column li, 
+.footer-column a {
+    color: #ccc;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 1.8;
+}
+
+.footer-column a:hover {
+    color: #fff;
+}
+
+.footer-social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-social-icons a {
+    background: #222;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.footer-social-icons a:hover {
+    background: #ff6f00; /* Orange hover */
+}
+
+.instagram-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-gap: 10px;
+}
+
+.instagram-gallery img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #222;
+}
+
+.footer-column .highlight {
+    color: #ff6f00;
+    font-weight: bold;
+}
